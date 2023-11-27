@@ -1,0 +1,72 @@
+<div class="root" style="margin:auto;border: 1px solid black;width:500px;height: 500px;overflow: scroll;position: relative">
+  <div style="position: absolute;">
+    <img src="./cat.jpg" style="width: 100%;">
+    <div style="margin-bottom: 20px"></div>
+    <img src="./cat2.jpg" style="width: 100%;">
+    <div style="margin-bottom: 20px"></div>
+    <img src="./cat3.jpg" style="width: 100%;">
+    <div style="margin-bottom: 20px"></div>
+    <img class="target" src="./target.png" style="width: 100%;">
+    <div style="margin-bottom: 20px"></div>
+    <img src="./cat4.jpg" style="width: 100%;">
+    <div style="margin-bottom: 20px"></div>
+    <img src="./cat5.jpg" style="width: 100%;">
+    <div style="margin-bottom: 20px"></div>
+    <img src="./cat.jpg" style="width: 100%;">
+  </div>
+</div>
+<div class="options" style="margin-top: 30px;text-align: center;">
+  <div>
+    <h1>Options</h1>
+    <label for="rootMargin" style="font-weight: bold;margin-left: 10px">rootMargin</label>
+    <input
+      id="rootMargin"
+      type="text"
+    >
+    <label for="threshold" style="font-weight: bold;margin-left: 10px">threshold</label>
+    <input
+      id="threshold"
+      type="text"
+    >
+  </div>
+  <div>
+    <h1>entries</h1>
+    <input 
+      id="boundingClientRect"
+      type="checkbox"
+    >
+    <label for="boundingClientRect" style="font-weight: bold;">boundingClientRect</label>
+    <input 
+      id="intersectionRect"
+      type="checkbox"
+    >
+    <label for="intersectionRect" style="font-weight: bold;">intersectionRect</label>
+    <input 
+      id="intersectionRatio"
+      type="checkbox"
+    >
+    <label for="intersectionRatio" style="font-weight: bold;">intersectionRatio</label>
+    <input 
+      id="rootBounds"
+      type="checkbox"
+    >
+    <label for="rootBounds" style="font-weight: bold;">rootBounds</label>
+    <input 
+      id="target"
+      type="checkbox"
+    >
+    <label for="target" style="font-weight: bold;">target</label>
+    <input 
+      id="time"
+      type="checkbox"
+    >
+    <label for="time" style="font-weight: bold;">time</label>
+  </div>
+  <input
+    class="button"
+    type="button"
+    style="margin-top: 20px"
+    value="적용"
+  >
+</div>
+<script src = "intersectionObserver.js"></script>
